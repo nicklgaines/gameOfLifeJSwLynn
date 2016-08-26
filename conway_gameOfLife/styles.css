@@ -1,5 +1,9 @@
 .boardNode {
   box-sizing: border-box;
+  height: same-as-width;
+  line-height: 0;
+
+
 }
 
 body {
@@ -20,9 +24,9 @@ body {
 }
 
 .alive {
-  background-color: green;
+  background-color: black;
 }
 
 .dead {
-  background-color: red;
+  background-color: white;
 }

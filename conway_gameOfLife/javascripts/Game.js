@@ -20,6 +20,7 @@ class Game {
       let sum=0;
       for (let neighbor of cellNeighbors) {
         sum+=newGameState[neighbor];
+        //alert('old gameState is ' + this.gameState + '\nnew gameState is ' + newGameState);
       }
       if (sum<2 || sum>3) {
       cell= 0;
@@ -28,6 +29,7 @@ class Game {
     }
   });
   this.gameState = newGameState;
+
   }
 };
 
