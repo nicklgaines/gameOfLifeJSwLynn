@@ -4,4 +4,4 @@ app.tick();
 
 setInterval(() => {
   app.tick();
-}, 500);  // <- Once working, try this at some different rates
+}, 5000);  // <- Once working, try this at some different rates

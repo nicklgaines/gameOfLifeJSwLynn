@@ -1,4 +1,4 @@
-* {
+.boardNode {
   box-sizing: border-box;
 }
 
@@ -19,10 +19,10 @@ body {
   border: 1px solid red;
 }
 
-/*.alive {
+.alive {
   background-color: green;
 }
 
 .dead {
   background-color: red;
-}*/
+}
