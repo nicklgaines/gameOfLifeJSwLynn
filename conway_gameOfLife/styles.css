@@ -2,8 +2,6 @@
   box-sizing: border-box;
   height: same-as-width;
   line-height: 0;
-
-
 }
 
 body {
@@ -12,7 +10,7 @@ body {
 
 .board {
   display: inline-block;
-  font-size: 0
+  font-size: 0;
 }
 
 .cell {

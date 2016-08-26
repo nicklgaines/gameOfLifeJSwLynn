@@ -8,7 +8,7 @@ class GameView { // Feel free to delete me... OR keep me!
   render() {
     this.el.innerHTML = '';
     this.el.setAttribute('class','boardNode');
-    this.game.gameState.forEach((cell) => {
+    this.game.gameState.forEach((cell, idx) => {
       const cellNode = document.createElement('div');
       cellNode.setAttribute('class', 'cell');
       if(cell === 0) {
@@ -23,7 +23,7 @@ class GameView { // Feel free to delete me... OR keep me!
         // make cells look alive or not?
       this.el.appendChild(cellNode);
     });
-    let nodeWidth = document.getElementsByClassName('cell')[0].offsetWidth;
+    var nodeWidth = document.getElementsByClassName('cell')[0].offsetWidth;
     this.el.style.width = this.game.width * nodeWidth+'px';
   }
 };
