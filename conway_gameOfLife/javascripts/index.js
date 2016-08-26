@@ -4,4 +4,4 @@ app.tick();
 
 setInterval(function(){
   app.tick();
-}, 2000);  // <- Once working, try this at some different rates
+}, 1000);  // <- Once working, try this at some different rates

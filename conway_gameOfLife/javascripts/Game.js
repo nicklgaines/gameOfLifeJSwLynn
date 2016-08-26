@@ -19,7 +19,8 @@ class Game {
       cellNeighbors = this.coordHelper.findNeighborIndices(stateIdx);
       let sum=0;
       for (let neighbor of cellNeighbors) {
-        sum+=newGameState[neighbor];
+        sum+=this.gameState[neighbor];
+        //for weird pattern : sum+=newGameState[neighbor]
       }
       if (sum<2 || sum>3) {
       newGameState[stateIdx]= 0;
