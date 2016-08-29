@@ -23,8 +23,7 @@ class GameView { // Feel free to delete me... OR keep me!
         // make cells look alive or not?
       this.el.appendChild(cellNode);
     });
-    //Square board styling
-    let nodeWidth = document.getElementsByClassName('cell')[0].offsetWidth;
+    var nodeWidth = document.getElementsByClassName('cell')[0].offsetWidth;
     this.el.style.width = this.game.width * nodeWidth+'px';
   }
 };
